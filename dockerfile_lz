@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . /app
 
 # 安装所需的Python包
-RUN pip install --no-cache-dir open-webui
+RUN pip install --no-cache-dir open-webui==0.3.13
 
 # 暴露端口
 EXPOSE 8080
